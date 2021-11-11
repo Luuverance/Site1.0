@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.first_page {
+    min-height: 100vh;
+}
+.upper_first_page {
+    background-color: #EEEFF1;
+    min-height: 70vh;
+}
+
+header {
+    display: block;
+}
+
+nav > img {
+    width: auto;
+    height: 100%;
+    
+}
+
+nav {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    padding: 2.5em 0 2.5em 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+a {
+    color: black; 
+    text-decoration: none; 
+   }
+a:hover {
+    color: #34547A;   
+    text-decoration: underline; 
+   }
+
+nav > ul > li > a {
+    font-weight: 500;
+    
+}
+
+.main   {
+    color: #34547A;
+}
+
+nav > ul > li {
+    padding: 0 0.7em 0 0.7em;
+    
+}
+
+nav > ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.under_header {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em 0 2em 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.under_header > .under_header_info {
+    width: 50%;
+    margin-left: 4em;
+}
+
+.under_header_info > h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    
+    padding-top: 0.5em;
+}
+
+.under_header_info > p {
+    font-size: 1rem;
+    margin: 3em 0 3em 0;
+}
+
+.under_header_info > button {
+    width: 225px;
+    height: 65px;
+    background-color: #34547A;
+    color: white;
+    border: none;
+    
+}
+
+.under_header > img {
+    margin-top: 2em;
+}
+
+.down_first_page {
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down_first_page_wrap {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.down_first_page_wrap > p {
+    color: #727272;
+    font-size: 1rem;
+    margin-top: 1.5em;
+}
+
+.down_first_page_wrap > h1 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.numbers {
+    background-color: #34547A;
+}
+
+.number_wrap > img {
+    height: 50.5px;
+    width: 141px;
+    margin: 0 1em 0 1em;
+}
+
+.number_wrap {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6em 0 6em 0;
+    flex-wrap: wrap;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skills > img {
+    width: 555px;
+    height: 450px;
+    padding: 6em 0 6em 0;
+}
+
+.skills_txt {
+    width: 28em;
+    margin-right: 7em;
+    padding-top: 4em;
+}
+
+.skills_txt > h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.skills_progress > h4 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.skills_progress > progress {
+    width: 100%;
+    margin: 1em 0 1em 0;
+}
+
+.video {
+    background-color: #EEEFF1;
+    min-height: 100vh;
+    text-align: center;
+    
+}
+
+.video_txt {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding-top: 3.5em;
+    
+    
+    
+}
+
+.video_txt > p {
+    margin: 3em 0 3em 0;
+
+}
+
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.projects > .img > img {
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.img {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: auto;
+
+}
+
+.blue_screen {
+    position: absolute;
+    background-color: #34547A;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img:hover .blue_screen {
+    opacity: 0.8;
+}
+
+.micro_wrap {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 3em 0 3em 0;
+}
+
+.last {
+    background-color: #EEEFF1;
+    min-height: 85vh;
+}
+
+.last > form {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5em;
+}
+
+.last > form > p {
+    padding: 2em 0 2em 0;
+}
+
+.last > form > textarea {
+    margin: 2em 0 2em 0;
+    width: 98%;
+    border: none;
+}
+
+.Name {
+    width: 45.5%;
+    height: 50px;
+    border: none;
+    
+}
+
+.Email {
+    width: 45.5%;
+    margin-left: 2em;
+    height: 50px;
+    border: none;
+    
+}
+
+.Btn {
+    width: 190px;
+    height: 55px;
+    background-color: #34547A;
+    color: white;
+    border: none;
+    margin-bottom: 2em;
+}
+
+form > p {
+    color: #727272;
+}
+
+form > h1 {
+    font-weight: 500;
+}
+
+footer {
+    min-height: 15vh;
+    background-color: #34547A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
